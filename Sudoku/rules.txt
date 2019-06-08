@@ -1,0 +1,19 @@
+***Welcome to Sudoku
+
+Here are the rules
+
+1) Each puzzle consists of a 9x9 grid containing given clues in various places.
+
+2) The object is to fill all empty squares so that the numbers 1-9 appear exactly
+	once in each row, column, diagonal, & 3x3 box. 
+
+3) The clues given at the start of the game will be contained within curly braces { }.
+	These locations cannot be overridden.
+
+4) A player can only overwrite locations indicated by brackets [ ].
+	Each location can be overwritten as many times as needed.
+
+5) A victory checker will run after each valid entry and will display,
+	"Congrats! You solved the puzzle!" once all victory conditions have been met.
+
+6) Have fun and enjoy!
