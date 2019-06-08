@@ -254,7 +254,7 @@ public class Sudoku {
 		if(startConditions.contains(rowLetterToInt.get(rowInput).toString() + columnLetterToInt.get(columnInput).toString())){
 			System.out.println("Cannot modify a starting board condition");
 		} else {
-			board[rowLetterToInt.get(rowInput)][columnLetterToInt.get(columnInput)] = valueInput;
+			board[rowLetterToInt.get(rowInput)][columnLetterToInt.get(columnInput)] = " " + valueInput + " ";
 			validInput = true;
 		}
 		
